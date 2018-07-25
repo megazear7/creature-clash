@@ -1,4 +1,4 @@
-# creature-clash
+# Creature Clash
 
 ## Development Environment Setup
 
