@@ -6,17 +6,18 @@
 .grid1 {
   display: grid;
   /*background-color: darkkhaki;*/
-  background-image: url("/images/main-screen.jpg");
+  background-image: url("/images/main-screen.png");
   background-size: 100%;
   background-repeat: no-repeat;
   grid-template-columns: repeat(6, 1fr);
-  grid-template-rows: minmax(3, 1fr, 100px, auto);
+  grid-template-rows: minmax(4, 1fr, 100px, auto);
   /*grid-gap: 10px;*/
   width: 100vw;
   height: 100vh;
   grid-template-areas:
   "title title title title title title"
-  "body body body . . ."
+  "links links links links links links"
+  "mainbody mainbody mainbody mainbody mainbody mainbody"
   "footer footer footer footer sidebar sidebar";
 }
 
@@ -25,15 +26,48 @@
   font-family: sans-serif;
   font-size: 72px;
   color: white;
-  padding-left: 20px;
+  align-self: center;
+  justify-self: center;
   /*background-color: yellow
-  border-style: solid;*/
+  border-style: solid;
+  border-width: 10px;
+  border-color: lightgray;*/
+}
+
+
+/*ul {
+  background-color: gray;
+  display: inline-block;
+  color: white;
+}
+*/
+
+/*a {
+  background-color: gray;
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+}
+*/
+
+.links {
+  grid-area: links;
+  display: inline-block;
+  float: right;
+  text-decoration: none;
+  color: white;
+  font-family: sans-serif;
+  font-size: 42px;
+  background-color: red;
+  /*background-color: blue;
+  border-style: solid;
   border-width: 10px;
   border-color: lightgray;
 }
+*/
 
-.body {
-  grid-area: body;
+.mainbody {
+  grid-area: mainbody;
   color: white;
   font-family: sans-serif;
   font-size: 42px;
@@ -42,6 +76,8 @@
   border-width: 10px;
   border-color: lightgray;*/
 }
+
+
 
 .sidebar {
   grid-area: sidebar;
