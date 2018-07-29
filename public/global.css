@@ -1,19 +1,19 @@
-* {
+html, body {
   margin: 0;
   padding: 0;
 }
 
 .grid1 {
   display: grid;
-  /*background-color: darkkhaki;*/
+  background-color: darkkhaki;
   background-image: url("/images/main-screen.png");
   background-size: 100%;
   background-repeat: no-repeat;
   grid-template-columns: repeat(6, 1fr);
   grid-template-rows: minmax(4, 1fr, 100px, auto);
   /*grid-gap: 10px;*/
-  width: 100vw;
-  height: 100vh;
+  width: 100%;
+  height: 100%;
   grid-template-areas:
   "title title title title title title"
   "links links links links links links"
@@ -37,6 +37,7 @@
 ul {
   display: block;
   text-align: center;
+  padding: 0;
 }
 
 li {
