@@ -24,18 +24,19 @@ html, body {
 .title {
   grid-area: title;
   font-family: sans-serif;
-  font-size: 72px;
   color: white;
-  align-self: center;
-  justify-self: center;
+  text-align: center;
   /*background-color: yellow
   border-style: solid;
   border-width: 10px;
   border-color: lightgray;*/
 }
 
+h1 {
+  font-size: 6em;
+}
+
 ul {
-  display: block;
   text-align: center;
   padding: 0;
 }
@@ -48,8 +49,8 @@ a {
   color: white;
   text-decoration: none;
   background-color: gray;
-  margin: 5px 5px 5px 5px;
-  padding: 5px 5px 5px 5px;
+  margin: 5px;
+  padding: 5px;
 }
 
 
@@ -58,7 +59,7 @@ a {
   /*align-self: center;
   justify-content: center;*/
   font-family: sans-serif;
-  font-size: 42px;
+  font-size: 2.5em;
   background-color: blue;
   /*border-style: solid;
   border-width: 10px;
@@ -70,7 +71,7 @@ a {
   grid-area: mainbody;
   color: white;
   font-family: sans-serif;
-  font-size: 42px;
+  font-size: 2em;
   /*background-color: blue;
   border-style: solid;
   border-width: 10px;
@@ -90,7 +91,7 @@ a {
 .footer {
   grid-area: footer;
   font-family: sans-serif;
-  font-size: 24px;
+  font-size: 1.5em;
   color: white;
   /*background-color: pink;
   border-style: solid;
