@@ -17,7 +17,7 @@
   grid-template-areas:
   "title title title title title title"
   "links links links links links links"
-  "mainbody mainbody mainbody mainbody mainbody mainbody"
+  ". mainbody mainbody mainbody mainbody ."
   "footer footer footer footer sidebar sidebar";
 }
 
@@ -26,39 +26,43 @@
   font-family: sans-serif;
   font-size: 72px;
   color: white;
-  align-self: center;
-  justify-self: center;
-  /*background-color: yellow
-  border-style: solid;
+  text-align: center;
+  margin-bottom: 100px;
+  box-shadow: 0 10px 10px 0px gray;
+  /*background-color: yellow*/
+  /*border-style: solid;
   border-width: 10px;
   border-color: lightgray;*/
 }
 
 ul {
-  display: block;
   text-align: center;
 }
-*/
 
 li {
   display: inline-block;
 }
 
-
-a {
+a:link, a:visited {
   color: white;
   text-decoration: none;
   background-color: gray;
-  margin: 5px 5px 5px 5px;
-  padding: 5px 5px 5px 5px;
+  border-radius: 4px;
+  border: 2px solid black;
+  padding-left: 4px;
+  padding-right: 4px;
 }
 
+a:hover, a:active {
+  background-color: darkgray;
+  color: white;
+}
 
 .links {
   grid-area: links;
   font-family: sans-serif;
-  font-size: 42px;
-  background-color: blue;
+  font-size: 36px;
+  /*background-color: blue;*/
   /*border-style: solid;
   border-width: 10px;
   border-color: lightgray;*/
@@ -96,3 +100,5 @@ a {
   border-width: 10px;
   border-color: lightgray;*/
 }
+
+.button
