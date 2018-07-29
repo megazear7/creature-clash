@@ -34,14 +34,9 @@
   border-color: lightgray;*/
 }
 
-<<<<<<< HEAD
-/*ul {
-  display: inline-block;
-=======
 ul {
   display: block;
   text-align: center;
->>>>>>> 25707fa7af8cca8c37e8992248353fe7055a68be
 }
 */
 
@@ -52,10 +47,6 @@ li {
 
 a {
   color: white;
-<<<<<<< HEAD
-  text-align: center;
-=======
->>>>>>> 25707fa7af8cca8c37e8992248353fe7055a68be
   text-decoration: none;
   background-color: gray;
   margin: 5px 5px 5px 5px;
