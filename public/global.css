@@ -5,7 +5,7 @@ html, body {
 
 .grid1 {
   display: grid;
-  background-color: lightgray;
+  background-color: #f9f9f9;
   background-size: 100%;
   background-repeat: no-repeat;
   grid-template-columns: repeat(2, 1fr);
@@ -22,7 +22,7 @@ html, body {
 .title {
   grid-area: title;
   font-family: sans-serif;
-  color: lightblue;
+  color: #2196F3;
   text-align: center;
 }
 
@@ -48,15 +48,9 @@ li {
 
 a {
   text-decoration: none;
+  padding: 10px;
 }
 
 a:hover, a:active {
-  color: lightblue;
-}
-
-.mainbody {
-  grid-area: mainbody;
-  color: darkgray;
-  font-family: sans-serif;
-  font-size: 2em;
+  color: #2196F3;
 }
