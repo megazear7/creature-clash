@@ -40,10 +40,12 @@ h1 {
 
 ul {
   text-align: center;
+  list-style-type: none;
 }
 
-li {
+.links li {
   display: inline-block;
+  /* styles for only li tags inside of the .links class */
 }
 
 a {
@@ -53,4 +55,28 @@ a {
 
 a:hover, a:active {
   color: #2196F3;
+}
+
+.mainbody {
+  grid-area: mainbody;
+  font-family: sans-serif;
+  font-size: 28px;
+  color: #2196F3;
+  padding-top: 80px;
+}
+
+.footer {
+  grid-area: footer;
+  font-family: sans-serif;
+  font-size: 32px;
+  color: #2196F3;
+  padding-top: 80px;
+}
+
+.sidebar {
+  grid-area: sidebar;
+  font-family: sans-serif;
+  font-size: 32px;
+  color: #2196F3;
+  padding-top: 80px;
 }
