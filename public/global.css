@@ -79,3 +79,10 @@ a:hover, a:active {
 .sidebar ul {
   list-style-type: none;
 }
+
+@media only screen and (max-width: 1160px) {
+  .container {
+    padding: 0 30px;
+  }
+
+}
